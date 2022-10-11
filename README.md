@@ -8,8 +8,27 @@ Usando PHP e Laravel estou fazendo curso do Matheus Battisti - Hora de Codar.
 
 ## Projeto em construção
 
-<li>Esse projeto vai ter o CRUD completo</li>
+<li>Esse projeto vai ter o CRUD completo e mais:</li>
 <br>
 <ul>Cadastro de usuarios</ul>
 <ul>Autenticação segura para acesso as demais paginas</ul>
 <ul>Pesquisa de eventos</ul>
+<ul>Bootstrap</ul>
+
+<li>Requisitos</li>
+<br>
+<ul>Composer 2.2(recomendado)</ul>
+<ul>PHP >= 7.4</ul>
+
+## Instale na sua maquina
+
+<li>Linux</li>
+<ul>No terminal, abra a pasta do projeto</ul>
+<ul>Execute: composer install </ul>
+<ul>Gere uma chave para acesso ao seu banco</ul>
+<ol>
+<ul>Execute: cp .env.example .env</ul>
+<ul>Execute: php artisan key:generate</ul><span>
+</ol>
+<ul>Execute: php artisan serve </ul>
+<ul>Acesse no navegador: http://127.0.0.1:8000/ </ul>
