@@ -8,8 +8,8 @@ Usando PHP e Laravel estou fazendo curso do Matheus Battisti - Hora de Codar.
 
 ## Projeto em construção
 
-<li>Esse projeto vai ter</li>
-<ul>CRUD</ul>
+<li>Esse projeto vai ter o CRUD completo</li>
+<br>
 <ul>Cadastro de usuarios</ul>
 <ul>Autenticação segura para acesso as demais paginas</ul>
 <ul>Pesquisa de eventos</ul>
