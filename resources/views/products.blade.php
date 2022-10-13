@@ -10,6 +10,7 @@
 <a href="/products"> Produtos</a>
 
 <h1>Pagina de produtos</h1>
+<p>Exibindo produto id: {{ $id }}</p>
 
 {{-- teste com blade--}}
 <!-- teste sem  blade-->
