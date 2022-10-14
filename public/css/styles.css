@@ -1,3 +1,7 @@
 h1 {
-  color: rebeccapurple;
+    color: rebeccapurple;
+}
+
+#navbar img {
+    width: 50px;
 }
