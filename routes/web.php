@@ -36,7 +36,8 @@ Route::get('/about', function () {
     return view('about');
 });
 Route::get('/products', function () {
-    return view('products');
+    $busca = request('search');
+    return view('products', ['busca' => $busca]);
 });
 Route::get('/products/{id}', function ($id = null) {
     return view('product', ["id" => $id]);

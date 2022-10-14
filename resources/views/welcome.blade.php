@@ -5,7 +5,7 @@
 @section('content')
 <link rel="stylesheet" href="/css/styles.css">
 <script src="/js/script.js"></script>
-<img src="/img/banner.jpg" alt="Banner" />
+<!-- <img src="/img/banner.jpg" alt="Banner" /> -->
 <a href="/">Home</a>
 <a href="/contact"> Contato</a>
 <a href="/about"> Sobre</a>
