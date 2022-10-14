@@ -11,4 +11,8 @@
 
 <h1>Pagina de produtos</h1>
 
+@if( null != $id)
+<p>Exibindo produto id: {{ $id }}</p>
+@endif
+
 @endsection
