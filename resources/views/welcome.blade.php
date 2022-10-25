@@ -3,27 +3,33 @@
 @section('title','HDC Events')
 
 @section('content')
-<link rel="stylesheet" href="/css/styles.css">
-<script src="/js/script.js"></script>
-<!-- <img src="/img/banner.jpg" alt="Banner" /> -->
-<a href="/">Home</a>
-<a href="/contact"> Contato</a>
-<a href="/about"> Sobre</a>
-<a href="/products"> Produtos</a>
-<h1>Curso de PHP com Laravel</h1>
-@if($nome == "Guilherme")
-<p>Name is Guilherme</p>
-@else
-<p>Name is not Guilherme</p>
-@endif
-
-@for($i = 0; $i < count($arr); $i++) <p>{{ $arr[$i] }}</p>
-  @endfor
 
 
-  @php
-  $name = "Joao";
-  echo $name;
-  @endphp
+<div id="search-container" class="col-md-12">
 
-  @endsection
+  <h1>Busque um Evento</h1>
+  <form action="">
+    <input type="text" id="search" name="search" class="form-control" placeholder="Procurar...">
+  </form>
+</div>
+<div id="events-container" class="col-md-12">
+  <h2>Proximos Eventos</h2>
+  <p>Veja os eventos dos proximos dias</p>
+  <div id="cards-container" class="row">
+    @foreach($events as $event)
+    <div class="card col-md-3">
+      <img src="/img/event_placeholder.jpg" alt="{{ $event->title }}">
+      <div class="card-body">
+        <p class="card-date">30/10/2022</p>
+        <h5 class="card-title">{{ $event->title }}</h5>
+        <p class="card-participantes">x participantes</p>
+        <a href="#" class="btn btn-primary"> Saber mais</a>
+      </div>
+    </div>
+    @endforeach
+  </div>
+</div>
+</div>
+
+
+@endsection
