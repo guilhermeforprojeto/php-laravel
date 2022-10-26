@@ -16,9 +16,9 @@
 
 </head>
 
-<body class=" antialiased">
+<body class="antialiased">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
       <div class="collapse navbar-collapse" id="navbar">
         <a href="/" class="navbar-brand">
           <img src="/img/SystemBeeEventos_logo.svg" alt="logo"></a>
