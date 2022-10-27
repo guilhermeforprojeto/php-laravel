@@ -9,7 +9,8 @@
   <!-- fontes dos Google  -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet" />
   <!-- CSS bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
 
   <!-- CSS da aplicação -->
   <link rel="stylesheet" href="/css/styles.css" />
@@ -46,7 +47,16 @@
 
     </nav>
   </header>
-  @yield('content')
+  <main>
+    <div class="container-fluit">
+      <div class="row">
+        @if(session('msg'))
+        <p class="msg">{{ session('msg')}}
+          @endif
+          @yield('content')
+      </div>
+    </div>
+  </main>
   <footer>
     <p>HDC Events &copy; System Bee 2022</p>
   </footer>
