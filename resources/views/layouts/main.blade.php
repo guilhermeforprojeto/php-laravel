@@ -44,7 +44,6 @@
           <a href="/" class="nav-link">Cadastrar</a>
         </li>
       </ul>
-
     </nav>
   </header>
   <main>
@@ -61,7 +60,6 @@
     <p>HDC Events &copy; System Bee 2022</p>
   </footer>
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
 </body>
 
 
