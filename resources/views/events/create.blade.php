@@ -13,8 +13,12 @@
       <input type="file" id="image" name="image" class="from-control-file">
     </div>
     <div class="form-group">
-      <label for="title">Evento</label>
+      <label for="title">Evento:</label>
       <input type="text" class="form-control" id="title" name="title" placeholder="Nome do Evento">
+    </div>
+    <div class="form-group">
+      <label for="date">Data evento:</label>
+      <input type="date" class="form-control" id="date" name="date">
     </div>
     <div class="form-group">
       <label for="title">Cidade</label>
@@ -54,6 +58,12 @@
     <input type="submit" class="btn btn-primary" value="Criar Evento">
   </form>
 </div>
+
+
+
+
+
+
 
 
 
