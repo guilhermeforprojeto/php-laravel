@@ -17,13 +17,15 @@ Usando PHP e Laravel estou fazendo curso do Matheus Battisti - Hora de Codar.
 
 <li>Requisitos</li>
 <br>
-<ul>Composer 2.2(recomendado)</ul>
-<ul>PHP >= 7.4</ul>
+<ul>Composer 1.10.13(recomendado)</ul>
+<ul>PHP >= 7.4.9</ul>
 <ul>MySQL V8.0.30-0ubuntu0.20.04.2<ul>Eu fiz com WSL usando a <a href="https://learn.microsoft.com/pt-br/windows/wsl/tutorials/wsl-database">Documentação do WSL</a></ul></ul>
 <ul>Apache + phpMyAdmin<ul>Fiz com WSL usando a <a href="https://marcelo-albuquerque.medium.com/instala%C3%A7%C3%A3o-e-configura%C3%A7%C3%A3o-de-servidor-web-no-wsl-2-ubuntu-20-04-b9ef7c8e949d">Instalar phpmyadmin no WSL </a><p>Certifique-se que estao rodando, Apache + phpMyAdmin e MySQL</p> </ul></ul>
 
 ## Instale na sua maquina
 
+<ul>PH</ul>
+<ul></ul>
 <li>Linux</li>
 <ul>No terminal, abra a pasta do projeto</ul>
 <ul>Execute: composer install </ul>
